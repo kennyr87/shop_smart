@@ -1,0 +1,5 @@
+CREATE USER 'shopsmart_member'@'localhost' IDENTIFIED BY 'member123';
+CREATE USER 'shopsmart_member'@'%' IDENTIFIED BY 'member123';
+
+CREATE USER 'shopsmart_login'@'localhost' IDENTIFIED BY 'login123';
+CREATE USER 'shopsmart_login'@'%' IDENTIFIED BY 'login123';
